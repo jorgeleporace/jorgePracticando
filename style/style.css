@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(222, 222, 245);
+    align-items: center;
+    padding: 10px;
+}
+.logoConTexto{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.img{
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+}
+.logoGls{
+    height: 90px;
+}
+.logo {
+    width: 85px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.itemsMenu{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav itemsMenu:hover{
+    color: rgb(29, 17, 87);
+}
+.primerFoto{
+    width: 100%;
+}
+.contenedorGridHome{
+    padding-bottom: 3em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width:300px;
+    height:250px;
+    grid-template-areas:
+    "c1 c1 c2 c2"
+    "c1 c1 c2 c2"
+    "c1 c1 c3 c4"
+    "c1 c1 c3 c4"
+    "c5 c5 c5 c5";
+}
+.c1{
+    grid-area: c1;
+    width:300px;
+    height:250px;
+}
+.c2{
+    grid-area: c2;
+    width:300px;
+    height:250px;
+}
+.c3{
+    grid-area: c3;
+    width:300px;
+    height:250px;
+}
+.c4{
+    grid-area: c4;
+    width:300px;
+    height:250px;
+}
+.c5{
+    grid-area: c5;
+    width:300px;
+    height:250px;
+}
+.grupo1{
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    margin-left: 20px;
+    align-items: center;
+}
+.grupo2{
+    color: rgb(2, 2, 2);
+    padding: 0%;
+    align-items: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 80px 40px 80px 40px;
+    text-align: center;
+    position: relative;
+    top: 40px; 
+    left: 40px;
+}
+h4{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    position: relative;
+    top: 40px; 
+    left: 40px;
+}
+p{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    border-radius: 10px solid blue;
+}
+h2{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    border-radius: 10px solid blue;
+}
+h3{
+    color: rgb(52, 52, 52);
+    padding: 40px;
+    border-radius: 10px solid blue;
+}
+footer{
+    padding: 0% 0% 40px 0%;
+    background-color: rgb(245, 248, 250);
+}
+small{
+    font-size: small;
+    padding: auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.lightblue{
+    background-color: #88b4c9;
+}
+.barraFlex{
+    display: flex;
+    justify-content: flex-end;
+}
+.redSocial{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: xx-large;
+}
+.redSocial a{
+    padding: 10px;
+}
+.box{
+    margin: 20px;
+    gap: 10px;
+    justify-content: center; 
+}
+.staffContainer{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
